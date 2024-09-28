@@ -22,7 +22,7 @@ native_model = None
 schema_builder = None
 
 
-def model_fn(model_dir):
+def model_fn(model_dir, context=None):
     """Placeholder docstring"""
     shared_libs_path = Path(model_dir + "/shared_libs")
 
